@@ -467,8 +467,6 @@ strong {
 
 .tooltip.in {
     font-size: 12px;
-    line-height: 1.3;
-
     opacity: 1;
 }
 
@@ -480,6 +478,7 @@ strong {
 .tooltip .tooltip-inner {
     background-color: hsla(0, 0%, 7%, 0.8);
     padding: 3px 5px;
+    line-height: 1.3;
 }
 
 #message_edit_tooltip {

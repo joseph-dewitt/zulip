@@ -19,6 +19,7 @@ var focus_tab = {
         $("#add-a-new-bot-form").show();
         $("#active_bots_list").hide();
         $("#inactive_bots_list").hide();
+        $('[data-toggle="tooltip"]').tooltip()
         exports.hide_errors();
     },
     active_bots_tab: function () {

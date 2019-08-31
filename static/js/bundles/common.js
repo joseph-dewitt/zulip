@@ -3,6 +3,7 @@ import "jquery/dist/jquery.js";
 import "underscore/underscore.js";
 import "../csrf.js";
 import "../blueslip.js";
+import "../../third/bootstrap/js/popper.min.js";
 import "../../third/bootstrap/js/bootstrap.js";
 import "../common.js";
 import "moment/min/moment.min.js";
